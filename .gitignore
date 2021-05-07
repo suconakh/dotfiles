@@ -1,0 +1,48 @@
+/*
+
+!/.gitignore
+!/.config/
+/.config/*
+
+# AwesomeWM
+!/.config/awesome/
+/.config/awesome/bling/
+/.config/awesome/lain/
+
+# NeoVim
+!/.config/nvim/
+
+# Alacritty
+!/.config/alacritty.yml
+
+# htop
+!/.config/htop/
+
+# fish
+!/.config/fish/
+
+# GTK
+!/.config/gtk-3.0/
+
+# Picom
+!/.config/picom/
+
+# XDG
+!/.config/user-dirs.dirs
+!/.config/user-dirs.locale
+!/.config/mimeapps.list
+
+# Python Poetry
+!/.config/pypoetry/
+
+# Nano
+!/.nanorc
+
+# Xorg
+!/.Xresources
+!/.xprofile
+!/.xinitrc
+!/.gtkrc-2.0
+
+
+.netrwhist
