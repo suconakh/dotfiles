@@ -1,0 +1,3 @@
+bindkey '^ ' autosuggest-accept
+bindkey '^[^M' autosuggest-execute
+# bindkey '^[ ' autosuggest-fetch

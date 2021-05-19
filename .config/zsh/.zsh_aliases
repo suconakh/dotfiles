@@ -1,0 +1,67 @@
+# scripts
+alias reload="exec $SHELL"
+alias r="reload"
+alias ping="ping -c 5"
+alias df="df -h"
+alias du="df -hc"
+
+# coloring
+alias dir="dir --color=auto"
+alias vdir="vdir --color=auto"
+alias grep="grep --color=auto"
+alias fgrep="fgrep --color=auto"
+alias egrep="egrep --color=auto"
+
+# ls
+alias ls="exa -F"
+alias l.="ls -d .*" 
+alias ll="ls -al"
+alias la="ls -a"
+
+# cd
+alias ..="cd .."
+alias cf="cd ~/.config"
+
+# git
+alias gs="git status" 
+
+# default editor
+alias v="$EDITOR"
+alias sv="sudo $EDITOR"
+
+# python
+alias py="python"
+
+# ---- configs ----
+# alacritty
+alias alacrc="v $HOME/.config/alacritty/alacritty.yml"
+# fish
+alias fishrc="v $HOME/.config/fish/config.fish"
+# zsh
+alias zshrc="v $ZDOTDIR/.zshrc"
+alias zshenv="v $ZDOTDIR/.zshenv"
+alias aliases="v $ZDOTDIR/.zsh_aliases"
+alias funcs="v $ZDOTDIR/.zsh_functions"
+alias keys="v $ZDOTDIR/.zsh_keys"
+# nvim
+alias vimrc="v $HOME/.config/nvim/init.vim"
+# tmux
+alias tmuxrc="v $HOME/.tmux.conf"
+
+# pulseaudio
+alias pulserc="v $HOME/.config/pulse/default.pa"
+# polybar
+alias pbrc="v $HOME/.config/polybar/config"
+# picom
+alias picomrc="v $HOME/.config/picom/picom.conf"
+
+# awesomeWM
+alias awrc="v $HOME/.config/awesome/rc.lua"
+alias awtheme="v $HOME/.config/awesome/theme.lua"
+# i3wm
+alias i3rc="v $HOME/.config/i3/config"
+# qtile
+alias qtrc="v $HOME/.config/qtile/config.py"
+alias qtkeys="v $HOME/.config/qtile/keys.py"
+alias qtlayouts="v $HOME/.config/qtile/layouts.py"
+alias qtscreens="v $HOME/.config/qtile/screens.py"
