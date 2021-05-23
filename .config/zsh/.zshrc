@@ -1,5 +1,15 @@
 # theme
-ZSH_THEME="fino-modified"
+# ZSH_THEME="fino-modified"
+# ZSH_THEME=jnrowe
+# ZSH_THEME=mlh
+# ZSH_THEME=nicoulaj
+# ZSH_THEME=Soliah
+# ZSH_THEME=steeef
+# ZSH_THEME=sunrise
+# ZSH_THEME=terminalparty
+# ZSH_THEME=ys
+ZSH_THEME=ys-modified
+
 
 # plugins
 plugins=(

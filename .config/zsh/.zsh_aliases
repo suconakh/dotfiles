@@ -1,9 +1,14 @@
-# scripts
+alias tmux="TERM=xterm-256color tmux -2u"
 alias reload="exec $SHELL"
-alias r="reload"
+alias rclear="clear && reload"
+
 alias ping="ping -c 5"
 alias df="df -h"
 alias du="df -hc"
+
+alias r="reload"
+alias rcl="rclear"
+alias e="echo"
 
 # coloring
 alias dir="dir --color=auto"
@@ -44,7 +49,7 @@ alias aliases="v $ZDOTDIR/.zsh_aliases"
 alias funcs="v $ZDOTDIR/.zsh_functions"
 alias keys="v $ZDOTDIR/.zsh_keys"
 # nvim
-alias vimrc="v $HOME/.config/nvim/init.vim"
+alias vrc="v -c 'call OpenConfig()'"
 # tmux
 alias tmuxrc="v $HOME/.tmux.conf"
 
