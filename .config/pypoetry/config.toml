@@ -1,0 +1,3 @@
+[virtualenvs]
+path = "~/.virtualenvs"
+in-project = true
