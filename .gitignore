@@ -14,7 +14,9 @@
 /.config/nvim/plugged/
 
 # Alacritty
-!/.config/alacritty.yml
+!/.config/alacritty/
+/.config/alacritty/*
+!/.config/alacritty/alacritty.yml
 
 # htop
 !/.config/htop/
