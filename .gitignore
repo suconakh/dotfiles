@@ -11,6 +11,7 @@
 
 # NeoVim
 !/.config/nvim/
+/.config/nvim/plugged/
 
 # Alacritty
 !/.config/alacritty.yml
@@ -35,6 +36,21 @@
 # Python Poetry
 !/.config/pypoetry/
 
+# Zsh
+!/.zshenv
+!/.config/zsh/
+/.config/zsh/.histfile
+/.config/zsh/.zcompdump*
+/.config/zsh/.zsh_history
+/.config/zsh/tmux*
+
+# Tmux
+!/.tmux.conf
+!/.config/tmux/
+!/.config/tmux/*
+/.config/tmux/plugins/
+/.config/tmux/resurrect/
+
 # Nano
 !/.nanorc
 
@@ -43,6 +59,5 @@
 !/.xprofile
 !/.xinitrc
 !/.gtkrc-2.0
-
 
 .netrwhist
